@@ -1,7 +1,43 @@
 // FSJS - Random Quote Generator
 
 // Create the array of quote objects and name it quotes
-
+var quotes = [
+  {
+    quote: ,
+    source: ,
+    citation: ,
+    year: ,
+    tag:
+  },
+  {
+    quote: ,
+    source: ,
+    citation: ,
+    year: ,
+    tag:
+  },
+  {
+    quote: ,
+    source: ,
+    citation: ,
+    year: ,
+    tag:
+  },
+  {
+    quote: ,
+    source: ,
+    citation: ,
+    year: ,
+    tag:
+  },
+  {
+    quote: ,
+    source: ,
+    citation: ,
+    year: ,
+    tag:
+  }
+];
 
 
 // Create the getRandomQuuote function and name it getRandomQuote
