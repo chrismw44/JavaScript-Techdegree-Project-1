@@ -48,14 +48,15 @@ function printQuote() {
   html += '<p class="quote">' + randomQuote.quote + '</p>';
   html += '<p class="source">' + randomQuote.source;
   for (key in randomQuote) {
-    if (key === "citation") {
+    if (key === 'citation') {
       html += '<span class="citation">' + randomQuote.citation + '</span>'
     }
-    if (key === "year") {
+    if (key === 'year') {
       html += '<span class="year">' + randomQuote.year + '</span>'
     }
   }
   html += '</p>';
+  document.getElementById('quote-box').innerHTML = html;
 }
 
 
